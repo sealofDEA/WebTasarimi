@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            width: 500px;
+            margin: auto;
+            background-color: #ebe7e0;
+
+        }
+        h1 {
+            color: #1a1b18
+        }
+        label {
+            margin: 5px 0px;
+            display: block;
+            background-color: #cda63c;
+            color: #fff;
+            padding: 3px;
+            border: 1px solid #947f46;
+            border-radius: 5px;
+        }
+        input
+        {
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Kişisel Bilgi Formu</h1>
+    <form>
+        <p>
+            <label for="fname">Kullanıcı adı</label>
+            <input id="adi" type="text" name="fname" />
+        </p>
+        <p>
+            <label for="fsurname">Soyadı </label>
+            <input id="soyadi" type="text" name="fsurname" />
+        </p>
+        <p>
+            <label for="city">Şehir</label>
+            <select id="city">
+                <option value="23">Elazığ</option>
+                <option value="55">Samsun</option>
+                <option value="06">Ankara</option>
+                <option value="61">Trabzon</option>
+                <option>Birşey</option>
+            </select>
+        </p>
+        <p>
+            <input type="radio" id="male" name="gender" value="1" checked />
+            <label for="male">Bay</label>
+            <input type="radio" id="female" name="gender" value="0" />
+            <label for="female">Bayan</label>
+        </p>
+        <p>
+            <input type="checkbox" 
+                   id="hobi_muzik" 
+                   name="muzik" 
+                   value="1" />
+            <label for="hobi_muzik">Müzik</label>
+
+            <input type="checkbox"
+                   id="hobi_spor"
+                   name="spor"
+                   value="2" />
+            <label for="hobi_spor">Spor</label>
+
+            <input type="checkbox"
+                   id="hobi_gezi"
+                   name="gezi"
+                   value="3" />
+            <label for="hobi_gezi">Gezi</label>
+        </p>
+        <p>
+            <label for="ozgecmis">Özgeçmiş</label>
+            <textarea id="ozgecmis" name="ozgecis"
+                      rows="5" cols="100"></textarea>
+        </p>
+    </form>
+
+
+
+
+</body>
+</html>
